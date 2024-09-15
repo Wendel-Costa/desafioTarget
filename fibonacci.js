@@ -1,3 +1,5 @@
+// Antes é necessário instalar o prompt-sync no terminal para utilizar no node... Comando para instalar: npm install prompt-sync
+
 const prompt = require("prompt-sync")();
 
 const numeroInformado = Number(prompt("Informe um número para a sequência de Fibonacci: "));
